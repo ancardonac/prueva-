@@ -24,4 +24,13 @@ public class Motor {
     public float getPotencia(){
 	return this.potencia;
     }
+
+    public void setCilindraje(float cilindraje) {
+        this.cilindraje = cilindraje;
+    }
+
+    public void setPotencia(float potencia) {
+        this.potencia = potencia;
+    }
+    
 }
